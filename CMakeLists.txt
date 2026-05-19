@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 project(map_converter_for_ssf
-        VERSION 0.6.8
+        VERSION 0.7.0
         LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 23)
