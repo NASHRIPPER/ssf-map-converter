@@ -381,3 +381,45 @@ compile_commands.json
 
 # Local agent context (not for public repo)
 /CLAUDE.md
+
+# macOS Finder metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.Trash-*
+.fuse_hidden*
+.nfs*
+
+# Windows shell
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Vim/Emacs swap and backup files
+*.swp
+*.swo
+*.swn
+.*.swp
+.*.swo
+.*.swn
+*~
+\#*\#
+.\#*
+
+# JetBrains (CLion etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ctags
+tags
+.tags
