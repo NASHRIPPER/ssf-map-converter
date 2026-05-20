@@ -76,9 +76,9 @@ jobs:
         run: |
           set -e
           mkdir release
-          cp "artifacts/ss_map_converter-linux/ss_map_converter"        "release/ss_map_converter-linux-x86_64"
-          cp "artifacts/ss_map_converter-macos/ss_map_converter"        "release/ss_map_converter-macos-arm64"
-          cp "artifacts/ss_map_converter-windows/ss_map_converter.exe"  "release/ss_map_converter-windows-x86_64.exe"
+          cp "artifacts/ss_map_converter-linux/ss_map_converter"        "release/ss-map-converter-linux-x86_64"
+          cp "artifacts/ss_map_converter-macos/ss_map_converter"        "release/ss-map-converter-macos-arm64"
+          cp "artifacts/ss_map_converter-windows/ss_map_converter.exe"  "release/ss-map-converter-windows-x86_64.exe"
           ls -la release
 
       - name: Create GitHub Release
